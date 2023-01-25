@@ -3,4 +3,4 @@ apply plugin: 'java'
 /* Плагин для запуска скомпилированного файла */
 apply plugin: 'application'
 /* Настройка сообщающая плагину что именно запускать */
-mainClassName = 'MyFirstProgram'
+mainClassName = 'ru.stqa.pft.sandbox.MyFirstProgram'
