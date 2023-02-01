@@ -3,11 +3,27 @@ package ru.stqa.pft.sandbox;
 public class MyFirstProgram {
 
   public static void main(String[] args) {
-    System.out.println("Hello, World!");
+    nameFunc("World");
+    nameFunc("Серожа");
 
-    System.out.println(2 + 2);
+    double len = 5;
+    System.out.println("Площадь квадрата равна: " + area(len));
 
-    System.out.println("2" + "2");
+    double a = 4;
+    double b = 5;
+    System.out.println("Площадь прямоугольника равна: " + area(a, b));
+  }
+
+  public static void nameFunc(String nameVariable) {
+    System.out.println("Hello, " + nameVariable + "!");
+  }
+
+  public static double area(double l) {
+    return l * l;
+  }
+
+  public static double area(double a, double b) {
+    return a * b;
   }
 
 }
